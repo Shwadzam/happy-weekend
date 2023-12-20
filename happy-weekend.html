@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: #000;
+      background-image: url("https://images.vexels.com/content/314759/preview/cute-thanksgiving-characters-pattern-design-d77e96.png");
+      background-size: cover;
+      background-position:center;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+    }
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+    .card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+      transition: all 0.3s ease; /* Added transition */
+      border: 1px solid rgba(255, 255, 255, 0.69);
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      transition: 0.3s;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 14px;
+    }
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+}
+
+
+  </style>
+</head>
+<body>
+  
+  <div class="card">
+    <img src="https://www.boredpanda.com/blog/wp-content/uploads/2021/12/cute-animated-characters-16-61c1e18ed99f1__700.jpg" alt="cute Image ">
+    <p>
+      Happy Weekend! Don't forget to tell me, if can texted u again. Have fun!
+    </p>
+  </div>
+
+</body>
+</html>
